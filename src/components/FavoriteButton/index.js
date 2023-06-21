@@ -13,6 +13,7 @@ export default function FavoriteButton() {
   return (
     <>
       <button
+        className="favorite-button"
         onClick={() => {
           toggleFavorite(!isFavorite);
         }}
